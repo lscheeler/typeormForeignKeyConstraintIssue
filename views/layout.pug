@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title= title
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width", initial-scale="1")
+  body.wrapper
+    .flash-container
+      if (messages)
+        if (messages.error)
+          .flash.error
+            each message in messages.error
+              p #{message}
+        if (messages.info)
+          .flash.info
+            each message in messages.info
+              p #{message}
+        if (messages.warning)
+          .flash.warning
+            each message in messages.warning
+              p #{message}
+    block content
+    block scripts

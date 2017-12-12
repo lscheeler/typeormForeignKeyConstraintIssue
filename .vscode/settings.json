@@ -1,0 +1,27 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.rulers": [
+    200
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/sessions": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist/": true,
+    "**/*.js": { "when": "$(basename).ts" },
+    "**/*.js.map": { "when": "$(basename)" }
+  },
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.referencesCodeLens.enabled": true,
+  "tslint.ignoreDefinitionFiles": false,
+  "tslint.autoFixOnSave": true
+}

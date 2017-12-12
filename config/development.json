@@ -1,0 +1,10 @@
+{
+  "parents": [
+    { "name": "John Smith",
+      "email": "john.smith@test.com"
+    },
+    { "name": "Jane Doe",
+      "email": "jane.doe@test.com"
+    }
+  ]
+}
